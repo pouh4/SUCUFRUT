@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font:15px arial, helvetica, comic sans;
+	width: 1000px; 
+	height: 800px;
+	margin: auto; 
+	padding: 0;
+	background-color: gray;
+}	
+#contenedor{
+	background: gray;
+}
+#header{
+	height: 200px;
+	background-color: white; 
+	float: left;
+}
+
+#nav{
+	width: 1000px;
+	height: 50px; 
+	background-color: gray; 
+	display: inline-flex;
+	align-items: center;
+	padding:  0   0 10px 0px;
+}
+
+#main{
+	height: 500px; 
+	background-color: #CEF6D8;
+	float: left;
+}
+#footer{
+	clear: both;
+	height: 50px; 
+	background-color: #267F2E;
+}
+#logo{
+	width: 200px; 
+	float:left; 
+	background-color: white;
+}	
+#banner{
+	width: 800px; 
+	float:right; 
+}
+#menu{
+	width: 600px;
+	padding-top: 5px; 
+	margin:  auto;
+}	
+#article{
+	width: 700px; 
+	height: 495px; 
+	background-color: #80C386;
+	float: left;
+}
+#aside{
+	width: 300px; 
+	background-color: #BDF3BA;
+	float: right;
+}
+	
+#menu ul a{
+	color:#BDF3BA; 
+	text-decoration:none; 
+	font: bold 16px Verdana;
+	padding: 12px 20px 12px 20px;
+	background:transparent;
+	border-bottom: 9px solid green;
+	transition: border-bottom .7s;
+	-webkit-transition: border-bottom .7s;
+	-moz-transition: border-bottom .7s;
+	-o-transition: border-bottom .7s;
+}
+	
+#menu ul a:hover{
+		border-bottom: 9px solid red;
+}
